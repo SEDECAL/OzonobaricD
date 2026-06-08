@@ -61,6 +61,9 @@ Third-party components:
 - **ekke's ShareUtils for Qt on Android** (`android/src/org/ekkescorner/`) — MIT License  
   Source: https://github.com/ekke/ekkesSHAREexample
 
+- **QSharePathResolver** (`android/src/org/ekkescorner/utils/QSharePathResolver.java`) — MIT License  
+  Based on: https://github.com/wkh237/react-native-fetch-blob
+
 See [NOTICE](NOTICE) for full third-party attributions.
 
 ---
