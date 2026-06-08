@@ -1,0 +1,12 @@
+set ( CORE_MACHINE "i686linux")
+set ( MACHINE                "DebianHost"          CACHE STRING "")
+set ( PLATFORM ${MACHINE} )
+
+set ( CMAKE_C_FLAGS          "-fPIC -D${MACHINE} -D${PLATFORM}" CACHE STRING "")
+set ( CMAKE_CXX_FLAGS        "-fPIC -D${MACHINE} -D${PLATFORM}" CACHE STRING "")
+
+set ( CMAKE_C_COMPILER   gcc )
+set ( CMAKE_CXX_COMPILER g++ )
+
+SET ( CMAKE_C_COMPILER_WORKS 1)
+SET ( CMAKE_CXX_COMPILER_WORKS 1)

@@ -1,0 +1,42 @@
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+Makefile*
+.qmake.stash
+.qmake.cache
+
+# Directorios de build
+build*/
+build.*/
+*-build-*/
+
+# Objetos compilados y librerías
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.dylib
+
+# Excepción: sí incluir la .so precompilada de Sock2BSPP
+!libs/arm64-v8a/libSock2BSPP.so
+
+# APKs y binarios de distribución (se publican en GitHub Releases)
+APKstore/
+*.apk
+*.aab
+
+# Archivos temporales
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Scripts con rutas de infraestructura interna
+recipe.sh

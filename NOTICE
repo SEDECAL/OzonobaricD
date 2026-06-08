@@ -1,0 +1,20 @@
+OzonobaricD UI — Third-party notices
+=====================================
+
+1. ekke's ShareUtils for Qt on Android
+   Author: Ekkehard Gentz (ekke)
+   Source: https://github.com/ekke/ekkesSHAREexample
+   License: MIT
+   Files: android/src/org/ekkescorner/
+
+2. QSharePathResolver
+   Based on: https://github.com/wkh237/react-native-fetch-blob
+   License: MIT
+   Files: android/src/org/ekkescorner/utils/QSharePathResolver.java
+
+3. Sock2BSPP (precompiled binary)
+   Copyright (C) Sedecal S.A.
+   Distributed as a precompiled shared library (libs/arm64-v8a/libSock2BSPP.so).
+   Built with Qt 5.15.2 for arm64-v8a (Android).
+   In accordance with the Qt LGPLv3 license, the user may relink this library
+   against a modified version of Qt.

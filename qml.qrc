@@ -1,0 +1,177 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Constants/Const0.qml</file>
+        <file>Images/baseline_cancel_blue_48.png</file>
+        <file>Images/baseline_check_circle_outline_white_24.png</file>
+        <file>Images/baseline_clear_white_48.png</file>
+        <file>Images/baseline_highlight_off_white_24.png</file>
+        <file>Images/baseline_play_arrow_white_24.png</file>
+        <file>Images/baseline_stop_white_24.png</file>
+        <file>Images/check_pressure_02.png</file>
+        <file>Images/Connection 01 175x175.png</file>
+        <file>Images/Flow_white.png</file>
+        <file>Images/ic_back_white_48dp_02.png</file>
+        <file>Images/ic_done_white_48dp.png</file>
+        <file>Images/ic_save_white_48dp.png</file>
+        <file>Images/ic_schedule_white_48dp.png</file>
+        <file>Images/MATRAZ_O3_03.png</file>
+        <file>Images/Max_L_00.png</file>
+        <file>Images/Min_L_01.png</file>
+        <file>Images/Minimizar_00.png</file>
+        <file>Images/molecula O2 h_2.png</file>
+        <file>Images/molecula O3_2.png</file>
+        <file>Images/MOVIE 02.png</file>
+        <file>Images/outline_autorenew_white_48.png</file>
+        <file>Images/outline_bag_white_48.png</file>
+        <file>Images/outline_bluetooth_searching_no_waves_white_48.png</file>
+        <file>Images/outline_bluetooth_searching_white_48.png</file>
+        <file>Images/outline_build.png</file>
+        <file>Images/outline_build_locked.png</file>
+        <file>Images/outline_build_unlocked_1.png</file>
+        <file>Images/outline_cancel_white_48.png</file>
+        <file>Images/outline_check_circle_outline_white_48.png</file>
+        <file>Images/outline_check_circle_white_48.png</file>
+        <file>Images/outline_clear_white_24.png</file>
+        <file>Images/outline_closed_bag_1_white_48.png</file>
+        <file>Images/outline_error_outline_white_24.png</file>
+        <file>Images/outline_error_outline_white_48.png</file>
+        <file>Images/outline_expand_less_white_24.png</file>
+        <file>Images/outline_expand_more_white_24.png</file>
+        <file>Images/outline_help_outline_white_48.png</file>
+        <file>Images/outline_info_white_1.png</file>
+        <file>Images/outline_info_white_24.png</file>
+        <file>Images/outline_info_white_48_02.png</file>
+        <file>Images/outline_info_white_48_03.png</file>
+        <file>Images/outline_insuflation_white_48.png</file>
+        <file>Images/outline_link_off_white_48.png</file>
+        <file>Images/outline_link_white_24.png</file>
+        <file>Images/outline_link_white_48.png</file>
+        <file>Images/outline_lock_white_48.png</file>
+        <file>Images/outline_manual_syringe_bis_white_48.png</file>
+        <file>Images/outline_more_horiz_white_48.png</file>
+        <file>Images/outline_no_info_white_48_03.png</file>
+        <file>Images/outline_pause_circle_white_48.png</file>
+        <file>Images/outline_play_circle_white_48.png</file>
+        <file>Images/outline_rectal_insufflation_white_48.png</file>
+        <file>Images/outline_redo_white_48.png</file>
+        <file>Images/outline_replay_white_48.png</file>
+        <file>Images/outline_search_again_white_24.png</file>
+        <file>Images/outline_search_white_24_1.png</file>
+        <file>Images/outline_settings_white_48.png</file>
+        <file>Images/outline_stop_circle_white_48.png</file>
+        <file>Images/outline_syringe_white_48.png</file>
+        <file>Images/outline_vacuum_white_48.png</file>
+        <file>Images/outline_vaginal_insufflation_white_48.png</file>
+        <file>Images/outline_visibility_off_white_24.png</file>
+        <file>Images/outline_visibility_white_24.png</file>
+        <file>Images/OverPressure_01.png</file>
+        <file>Images/OZD_09.png</file>
+        <file>Images/OZD_unlink_09.png</file>
+        <file>Images/OZONO_02.png</file>
+        <file>Images/pause_5px_01.png</file>
+        <file>Images/play_5px_01.png</file>
+        <file>Images/READ MANUAL 02.png</file>
+        <file>Images/sliderRange_02.png</file>
+        <file>Images/tablet_02.png</file>
+        <file>Images/TOUCH 02.png</file>
+        <file>Images/VACIO_Pressure_03_192x192.png</file>
+        <file>Images/VACIO_TIEMPO_02_192x192.png</file>
+        <file>Imgs/Img0.qml</file>
+        <file>Styles/Style0.qml</file>
+        <file>Styles/Style1.qml</file>
+        <file>Advertising.qml</file>
+        <file>BluetoothConnection.qml</file>
+        <file>CalibrationCard.qml</file>
+        <file>ConfigurationArea.qml</file>
+        <file>Confirmation.qml</file>
+        <file>CustomerName.qml</file>
+        <file>Database.js</file>
+        <file>DBcreator.qml</file>
+        <file>DeviceCalibration.qml</file>
+        <file>DeviceInfo.qml</file>
+        <file>DeviceLink.qml</file>
+        <file>EmergencyButton.qml</file>
+        <file>ExpandArea.qml</file>
+        <file>GradientProgress.qml</file>
+        <file>Heartbeat.qml</file>
+        <file>HelpMenu.qml</file>
+        <file>InfoCard.qml</file>
+        <file>Input.qml</file>
+        <file>InputSelector.qml</file>
+        <file>Molecule.qml</file>
+        <file>MyRadioButtom.qml</file>
+        <file>PinPad.qml</file>
+        <file>PressureGadget.qml</file>
+        <file>PressureTest.qml</file>
+        <file>Progress.qml</file>
+        <file>ProgressView.qml</file>
+        <file>ProtocolSelector.qml</file>
+        <file>ResultView.qml</file>
+        <file>Simulator.qml</file>
+        <file>SplitMenu.qml</file>
+        <file>StartUp.qml</file>
+        <file>StateMachine.qml</file>
+        <file>SwipeArea.qml</file>
+        <file>TabBar.qml</file>
+        <file>ToolBar.qml</file>
+        <file>UnitsAndLanguage.qml</file>
+        <file>WaitingAnimator.qml</file>
+        <file>main.qml</file>
+        <file>SocketProtocol.js</file>
+        <file>UnitsConversion.js</file>
+        <file>FsmSignals.qml</file>
+        <file>SyringeAnimation.qml</file>
+        <file>Images/SyringeFill_V_00.gif</file>
+        <file>Images/MOVIE 02_Rotate_90.png</file>
+        <file>Images/READ MANUAL 02_Rotate_90.png</file>
+        <file>Images/TOUCH 02_Rotate_90.png</file>
+        <file>Images/Connection 01 175x175_Rotate_90.png</file>
+        <file>Images/Connection 01 175x175_Op_30.png</file>
+        <file>Images/READ MANUAL 02_Rotate_90_Op_30.png</file>
+        <file>Images/TOUCH 02_Op_30.png</file>
+        <file>Images/TOUCH 02_Rotate_90_Op_30.png</file>
+        <file>Images/Connection 01 175x175_Rotate_90_Op_30.png</file>
+        <file>Images/MOVIE 02_Op_30.png</file>
+        <file>Images/MOVIE 02_Rotate_90_Op_30.png</file>
+        <file>Images/READ MANUAL 02_Op_30.png</file>
+        <file>AppSplash.qml</file>
+        <file>Images/Halo_Black_00.gif</file>
+        <file>Images/dc.png</file>
+        <file>Images/n.png</file>
+        <file>Images/base_01.png</file>
+        <file>Images/molecula O2 h_2_small.png</file>
+        <file>Images/outline_link_off_white_24.png</file>
+        <file>Images/outline_local_dose_solid_3_white_48.png</file>
+        <file>Images/outline_open_bag_white_1_48.png</file>
+        <file>Selection.qml</file>
+        <file>Images/ClosedBagWaitingTime_00.png</file>
+        <file>Images/outline_local_dose_solid_4_white_48.png</file>
+        <file>Images/outline_vacuum_pressure_white_48.png</file>
+        <file>Images/outline_vacuum_time_white_48.png</file>
+        <file>Images/Volume_00.png</file>
+        <file>Images/outline_vacuum_pressure_white_48_b.png</file>
+        <file>Images/outline_vacuum_time_white_48_b.png</file>
+        <file>Images/small_dose_00.png</file>
+        <file>Images/ic_del_white_48dp_00.png</file>
+        <file>Images/outline_automatic_syringe_white_48_01.png</file>
+        <file>Styles/Style2.qml</file>
+        <file>HelpImgViewer.qml</file>
+        <file>MultiMediaPlayer.qml</file>
+        <file>Images/baseline_ff_white_24.png</file>
+        <file>Images/baseline_pause_white_24.png</file>
+        <file>Images/baseline_rf_white_24.png</file>
+        <file>Images/battery_charging_h_100_0_24dp.png</file>
+        <file>Images/battery_h_100_0_24dp.png</file>
+        <file>Images/battery_h_15_0_24dp.png</file>
+        <file>Images/battery_h_25_0_24dp.png</file>
+        <file>Images/battery_h_50_0_24dp.png</file>
+        <file>Images/battery_h_75_0_24dp.png</file>
+        <file>Images/battery_h_r_0_24dp.png</file>
+        <file>Images/battery_charging_h_15_0_24dp.png</file>
+        <file>Images/battery_charging_h_25_0_24dp.png</file>
+        <file>Images/battery_charging_h_50_0_24dp.png</file>
+        <file>Images/battery_charging_h_75_0_24dp.png</file>
+        <file>Images/battery_charging_h_r_0_24dp.png</file>
+        <file>ScreenPointer.qml</file>
+    </qresource>
+</RCC>
