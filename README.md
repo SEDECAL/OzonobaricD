@@ -27,7 +27,7 @@ Built with **Qt 5.15.2 / QML** targeting **arm64-v8a** Android devices.
 2. Install **Android NDK r21e** and **Android SDK API 29+** and configure their paths in Qt Creator (`Edit → Preferences → Devices → Android`).
 3. Clone this repository:
    ```bash
-   git clone https://github.com/sedecal/OzonobaricD.git
+   git clone https://github.com/SEDECAL/OzonobaricD.git
    cd OzonobaricD
    ```
 4. Open `Ozd.pro` in Qt Creator.
