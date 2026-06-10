@@ -1,20 +1,39 @@
-OzonobaricD UI — Third-party notices
-=====================================
+Open Source Software Notices
 
-1. ekke's ShareUtils for Qt on Android
-   Author: Ekkehard Gentz (ekke)
-   Source: https://github.com/ekke/ekkesSHAREexample
-   License: MIT
-   Files: android/src/org/ekkescorner/
+This product includes software licensed under open source terms.
 
-2. QSharePathResolver
-   Based on: https://github.com/wkh237/react-native-fetch-blob
-   License: MIT
-   Files: android/src/org/ekkescorner/utils/QSharePathResolver.java
+OzonobaricD UI
+Copyright © 2025 Sedecal S.A.
+Licensed under the GNU General Public License v3.0 (GPL-3.0-or-later).
+Source code available at: https://github.com/sedecal/OzonobaricD
+License text: https://www.gnu.org/licenses/gpl-3.0.html
 
-3. Sock2BSPP (precompiled binary)
-   Copyright (C) Sedecal S.A.
-   Distributed as a precompiled shared library (libs/arm64-v8a/libSock2BSPP.so).
-   Built with Qt 5.15.2 for arm64-v8a (Android).
-   In accordance with the Qt LGPLv3 license, the user may relink this library
-   against a modified version of Qt.
+Qt Framework 5.15.2
+Copyright © The Qt Company Ltd.
+Licensed under the GNU Lesser General Public License v3.0 (LGPLv3).
+Source code available at: https://code.qt.io/cgit/qt/qt5.git/
+License text: https://www.gnu.org/licenses/lgpl-3.0.html
+
+ekke's ShareUtils for Qt on Android
+Copyright © 2017 Ekkehard Gentz (ekke)
+Licensed under the MIT License.
+Source code available at: https://github.com/ekke/ekkesSHAREexample
+License text: https://opensource.org/licenses/MIT
+
+QSharePathResolver
+Copyright © 2017 xeiyan@gmail.com; modifications © 2017 ekke@ekkes-corner.org
+Licensed under the MIT License.
+Source code available at: https://github.com/wkh237/react-native-fetch-blob
+License text: https://opensource.org/licenses/MIT
+
+Android Support Library (support-v4 25.3.1)
+Copyright © The Android Open Source Project
+Licensed under the Apache License, Version 2.0.
+Source code available at: https://android.googlesource.com/platform/frameworks/support
+License text: https://www.apache.org/licenses/LICENSE-2.0
+
+Sock2BSPP
+Copyright © Sedecal S.A. All rights reserved.
+Proprietary software distributed as a precompiled shared library (libs/arm64-v8a/libSock2BSPP.so).
+Built with Qt 5.15.2 for arm64-v8a (Android).
+In accordance with the Qt LGPLv3 license, the user may relink this library against a modified version of Qt.
