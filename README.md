@@ -13,11 +13,35 @@ Built with **Qt 5.15.2 / QML** targeting **arm64-v8a** Android devices.
 | Dependency | Version |
 |---|---|
 | Qt | 5.15.2 |
-| Qt modules | Core, Gui, Widgets, Quick, Qml, QmlModels, QmlWorkerScript, QuickControls2, QuickTemplates2, Bluetooth, Network, Multimedia, MultimediaQuick, AndroidExtras, Positioning, PositioningQuick, Location, Sql, Concurrent, RemoteObjects |
 | Qt Creator | 4.15.2 |
 | Android NDK | r21e (or compatible) |
 | Android SDK | API 29 or later |
 | Target ABI | arm64-v8a |
+
+### Qt modules (20)
+
+| Qt module | Source repo | Source mirror |
+|---|---|---|
+| Core | qtbase | https://github.com/SEDECAL/qt5-qtbase |
+| Gui | qtbase | https://github.com/SEDECAL/qt5-qtbase |
+| Widgets | qtbase | https://github.com/SEDECAL/qt5-qtbase |
+| Network | qtbase | https://github.com/SEDECAL/qt5-qtbase |
+| Sql | qtbase | https://github.com/SEDECAL/qt5-qtbase |
+| Concurrent | qtbase | https://github.com/SEDECAL/qt5-qtbase |
+| Qml | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
+| QmlModels | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
+| QmlWorkerScript | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
+| Quick | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
+| QuickControls2 | qtquickcontrols2 | https://github.com/SEDECAL/qt5-qtquickcontrols2 |
+| QuickTemplates2 | qtquickcontrols2 | https://github.com/SEDECAL/qt5-qtquickcontrols2 |
+| Bluetooth | qtconnectivity | https://github.com/SEDECAL/qt5-qtconnectivity |
+| Multimedia | qtmultimedia | https://github.com/SEDECAL/qt5-qtmultimedia |
+| MultimediaQuick | qtmultimedia | https://github.com/SEDECAL/qt5-qtmultimedia |
+| AndroidExtras | qtandroidextras | https://github.com/SEDECAL/qt5-qtandroidextras |
+| Positioning | qtlocation | https://github.com/SEDECAL/qt5-qtlocation |
+| PositioningQuick | qtlocation | https://github.com/SEDECAL/qt5-qtlocation |
+| Location | qtlocation | https://github.com/SEDECAL/qt5-qtlocation |
+| RemoteObjects | qtremoteobjects | https://github.com/SEDECAL/qt5-qtremoteobjects |
 
 ---
 
