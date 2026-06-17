@@ -13,7 +13,7 @@ Built with **Qt 5.15.2 / QML** targeting **arm64-v8a** Android devices.
 | Dependency | Version |
 |---|---|
 | Qt | 5.15.2 |
-| Qt modules | Quick, Bluetooth, Core, AndroidExtras, Multimedia, Gui, Widgets |
+| Qt modules | Core, Gui, Widgets, Quick, Qml, QmlModels, QmlWorkerScript, QuickControls2, QuickTemplates2, Bluetooth, Network, Multimedia, MultimediaQuick, AndroidExtras, Positioning, PositioningQuick, Location, Sql, Concurrent, RemoteObjects |
 | Qt Creator | 4.15.2 |
 | Android NDK | r21e (or compatible) |
 | Android SDK | API 29 or later |
