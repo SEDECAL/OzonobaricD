@@ -45,7 +45,18 @@ The Bluetooth communication stack is implemented in **Sock2BSPP**, a proprietary
 libs/arm64-v8a/libSock2BSPP.so
 ```
 
-This binary was compiled with **Qt 5.15.2** for **arm64-v8a** (Android).  
+This binary was compiled with **Qt 5.15.2** for **arm64-v8a** (Android), linking dynamically against the following Qt modules:
+
+| Qt module | Source mirror |
+|---|---|
+| Core | https://github.com/SEDECAL/qt5-qtbase |
+| Gui | https://github.com/SEDECAL/qt5-qtbase |
+| Network | https://github.com/SEDECAL/qt5-qtbase |
+| Qml | https://github.com/SEDECAL/qt5-qtdeclarative |
+| QmlModels | https://github.com/SEDECAL/qt5-qtdeclarative |
+| Quick | https://github.com/SEDECAL/qt5-qtdeclarative |
+| Bluetooth | https://github.com/SEDECAL/qt5-qtconnectivity |
+
 In accordance with the Qt LGPLv3 license, the user may relink this library against a modified version of Qt. Because it is distributed as a dynamic shared library, this requirement is automatically satisfied.
 
 The source code of Sock2BSPP is not available under an open-source license.
