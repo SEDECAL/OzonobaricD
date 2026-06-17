@@ -20,28 +20,34 @@ Built with **Qt 5.15.2 / QML** targeting **arm64-v8a** Android devices.
 
 ### Qt modules (20)
 
-| Qt module | Source repo | Source mirror |
-|---|---|---|
-| Core | qtbase | https://github.com/SEDECAL/qt5-qtbase |
-| Gui | qtbase | https://github.com/SEDECAL/qt5-qtbase |
-| Widgets | qtbase | https://github.com/SEDECAL/qt5-qtbase |
-| Network | qtbase | https://github.com/SEDECAL/qt5-qtbase |
-| Sql | qtbase | https://github.com/SEDECAL/qt5-qtbase |
-| Concurrent | qtbase | https://github.com/SEDECAL/qt5-qtbase |
-| Qml | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
-| QmlModels | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
-| QmlWorkerScript | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
-| Quick | qtdeclarative | https://github.com/SEDECAL/qt5-qtdeclarative |
-| QuickControls2 | qtquickcontrols2 | https://github.com/SEDECAL/qt5-qtquickcontrols2 |
-| QuickTemplates2 | qtquickcontrols2 | https://github.com/SEDECAL/qt5-qtquickcontrols2 |
-| Bluetooth | qtconnectivity | https://github.com/SEDECAL/qt5-qtconnectivity |
-| Multimedia | qtmultimedia | https://github.com/SEDECAL/qt5-qtmultimedia |
-| MultimediaQuick | qtmultimedia | https://github.com/SEDECAL/qt5-qtmultimedia |
-| AndroidExtras | qtandroidextras | https://github.com/SEDECAL/qt5-qtandroidextras |
-| Positioning | qtlocation | https://github.com/SEDECAL/qt5-qtlocation |
-| PositioningQuick | qtlocation | https://github.com/SEDECAL/qt5-qtlocation |
-| Location | qtlocation | https://github.com/SEDECAL/qt5-qtlocation |
-| RemoteObjects | qtremoteobjects | https://github.com/SEDECAL/qt5-qtremoteobjects |
+Qt 5.15.2 source mirror: https://github.com/SEDECAL/qt5-5.15.2
+
+```bash
+git clone https://github.com/SEDECAL/qt5-5.15.2
+```
+
+| Qt module | Source directory in mirror |
+|---|---|
+| Core | `qtbase/` |
+| Gui | `qtbase/` |
+| Widgets | `qtbase/` |
+| Network | `qtbase/` |
+| Sql | `qtbase/` |
+| Concurrent | `qtbase/` |
+| Qml | `qtdeclarative/` |
+| QmlModels | `qtdeclarative/` |
+| QmlWorkerScript | `qtdeclarative/` |
+| Quick | `qtdeclarative/` |
+| QuickControls2 | `qtquickcontrols2/` |
+| QuickTemplates2 | `qtquickcontrols2/` |
+| Bluetooth | `qtconnectivity/` |
+| Multimedia | `qtmultimedia/` |
+| MultimediaQuick | `qtmultimedia/` |
+| AndroidExtras | `qtandroidextras/` |
+| Positioning | `qtlocation/` |
+| PositioningQuick | `qtlocation/` |
+| Location | `qtlocation/` |
+| RemoteObjects | `qtremoteobjects/` |
 
 ---
 
@@ -71,15 +77,17 @@ libs/arm64-v8a/libSock2BSPP.so
 
 This binary was compiled with **Qt 5.15.2** for **arm64-v8a** (Android), linking dynamically against the following Qt modules:
 
-| Qt module | Source mirror |
+| Qt module | Source directory in mirror |
 |---|---|
-| Core | https://github.com/SEDECAL/qt5-qtbase |
-| Gui | https://github.com/SEDECAL/qt5-qtbase |
-| Network | https://github.com/SEDECAL/qt5-qtbase |
-| Qml | https://github.com/SEDECAL/qt5-qtdeclarative |
-| QmlModels | https://github.com/SEDECAL/qt5-qtdeclarative |
-| Quick | https://github.com/SEDECAL/qt5-qtdeclarative |
-| Bluetooth | https://github.com/SEDECAL/qt5-qtconnectivity |
+| Core | [`qtbase/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtbase) |
+| Gui | [`qtbase/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtbase) |
+| Network | [`qtbase/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtbase) |
+| Qml | [`qtdeclarative/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtdeclarative) |
+| QmlModels | [`qtdeclarative/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtdeclarative) |
+| Quick | [`qtdeclarative/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtdeclarative) |
+| Bluetooth | [`qtconnectivity/`](https://github.com/SEDECAL/qt5-5.15.2/tree/main/qtconnectivity) |
+
+Mirror: https://github.com/SEDECAL/qt5-5.15.2 — `git clone https://github.com/SEDECAL/qt5-5.15.2`
 
 In accordance with the Qt LGPLv3 license, the user may relink this library against a modified version of Qt. Because it is distributed as a dynamic shared library, this requirement is automatically satisfied.
 
