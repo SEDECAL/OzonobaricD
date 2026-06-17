@@ -11,7 +11,9 @@ License text: https://www.gnu.org/licenses/lgpl-3.0.html
 Qt Framework 5.15.2
 Copyright © The Qt Company Ltd.
 Licensed under the GNU Lesser General Public License v3.0 (LGPLv3).
-Source code available at: https://code.qt.io/cgit/qt/qt5.git/
+Source code available at:
+  - https://github.com/SEDECAL/qt5-qt5 (mirror under Sedecal control, 8 submodules at github.com/SEDECAL/qt5-*)
+  - https://code.qt.io/cgit/qt/qt5.git/ (upstream)
 License text: https://www.gnu.org/licenses/lgpl-3.0.html
 
 ekke's ShareUtils for Qt on Android
