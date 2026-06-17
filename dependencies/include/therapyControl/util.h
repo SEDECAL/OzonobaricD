@@ -1,3 +1,4 @@
+
 #pragma once
 #include <stdint.h>
 enum  Numerology {
@@ -24,8 +25,6 @@ std::string commandSerializer( const char *str_command );
 
 extern "C" {
 #endif
-
-
 uint8_t UTILS_Hex2Uint8(char *Data);
 int16_t UTILS_Hex2Int16(char *Data);
 

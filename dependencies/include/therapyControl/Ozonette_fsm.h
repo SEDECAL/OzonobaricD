@@ -1,3 +1,4 @@
+
 /*
  * fsm.h
  *
@@ -85,8 +86,6 @@
                                                               //   Azure Task 15141: Modify Skip error supervision functionality implementation (05/09/2025)
                                                               //   Azure Task 15173: Avoid second generation shortcut to reduce therapy start up time (09/09/2025)
   #define SW_VERSION      "V4.R0.P6_a"                        //   Azure Task 15540: Modify second reference pressure calibration point from 1000 to 500. (06/11/2025).
-
-
 /**
  * \enum Dose scale Ids.
  */
@@ -316,8 +315,6 @@ typedef enum
   SKIP_ERROR = 1
 }SKIP_ERROR_E;
 
-
-
 #include "therapyControl/myTypes.h"
 typedef struct config_t
 {
@@ -342,8 +339,6 @@ typedef struct
     uint16 LastSamples[3];
     int8   LastSamplesCounter;
 }MODULATOR_WIDTH_MEDIA_T;
-
-
 #define LED_STRIP_COLOR_STARTING      0xFFFFFF
 #define LED_STRIP_COLOR_ERROR         0xFF0000
 #define LED_STRIP_COLOR_STANDBY       0x00FFFF
@@ -359,8 +354,6 @@ typedef struct
 #define LED_STRIP_DIME_75        192
 #define LED_STRIP_DIME_50        128
 #define LED_STRIP_DIME_25        64
-
-
 #define OZONETTE_APP_MAX_FSM_STATES 64 + 6
 
 #include "therapyControl/fsm_state.h"
@@ -616,8 +609,6 @@ typedef enum
   KEY_ENTER_RELEASED  = 0x04,
   KEY_CANCEL_RELEASED = 0x08
 }KEY_TYPES;
-
-
 #define INI_BASE_PERIOD_CALCULATION_EQUATION(period, pressure, factor)   (period + (uint16)((uint32)(((uint32)factor * (uint32)pressure) >> 6)))
 #define PERIOD_PRESSURE_COMPENSATION_EQUATION(period, pressure, factor)  (period - (uint16)((uint32)(((uint32)factor * (uint32)pressure) >> 6)))
 
@@ -629,8 +620,6 @@ extern "C" {
  * When am event is not possible in a given state, it's function pointer is configured with this function that does nothing.
  */
 void DelegateDummy(void);
-
-
 /**
  * Return valve output code depending on selected therapy.
  */
@@ -1099,8 +1088,6 @@ void UnblockVaccumPump(void);
 
 uint8 MaxAllowedFlow(void);
 uint8 MaxAllowedTime(void);
-
-
 /**
  * Update the display information according to the state.
  */
@@ -1359,8 +1346,6 @@ void fsmBoot(void);
  * Return absolute pressure using last pressure sample and atmospheric pressure.
  */
 uint16 GetInstantAbsolutePressure(uint16 PressAtm);
-
-
 /**
  * Detect false flow.
  */
@@ -1370,10 +1355,6 @@ void DetectFalseFlowSituation(void);
  * Detect high voltage disconnection
  */
 void DetectHighVoltageDisconnection(void);
-
-
-
-
 /**
  * Compute data sensor media.
  */
@@ -1398,8 +1379,6 @@ void CheckOzoneStability(void);
  * Distort adjusting process.
  */
 void SkipAdjusting(void);
-
-
 void SetAppMode(uint8 Mode);
 /**
  * Ozonette FSM process event function.
@@ -1475,12 +1454,6 @@ void SendPeriodicInfoDelegate();
 #ifdef __cplusplus
 }
 #endif
-
-
-
-
-
-
 void InitWarmingO3Sensor(void);
 void WarmingO3Sensor(void);
 void CompletedLedIndication(void);
@@ -1488,10 +1461,6 @@ void AdjustingLedIndication(void);
 void ChangeCurrentState (FSM_STATE_T* NewState);
 void UpdatePressureAndTemperature(void);
 #endif /* FSM_H_ */
-
-
-
-
 
 /*
   NOTAS DE INTERES

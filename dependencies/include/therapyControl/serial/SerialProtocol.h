@@ -1,3 +1,4 @@
+
 /*!
  * \file        Protocol.h
  * \brief       This module implements the Master side of the communication protocol between control
@@ -20,8 +21,6 @@
  *              It let's you send and receive commands, get the last response to a command and Enable/Disable the CRC check in the protocol.
  *              It also implements some internal functions.
  */
-
-
 #ifndef SERIALPROTOCOL_H_
 #define SERIALPROTOCOL_H_
 
@@ -69,10 +68,6 @@
  * Response string offset for ACK or NAK
  */
 #define RESPONSE_ACK_NAK_OFFSET         1
-
-
-
-
 /**
  * ACK/NAK codes
  * @{
@@ -100,8 +95,6 @@ typedef enum
  * \enum PROTOCOL_RETURN_E
  * Return values for Protocol functions
  */
-
-
 /**
  * \enum PROTOCOL_NAK_ERROR_E
  * Protocol NAK Causes
@@ -120,10 +113,6 @@ typedef enum
   PROTOCOL_NAK_ERROR_SENSOR_NOT_CALIBRATED,
   PROTOCOL_NAK_PARSE_ERROR_MAX
 } PROTOCOL_NAK_ERROR_E;
-
-
-
-
 
 #include "therapyControl/myTypes.h"
 /*! \brief Protocol command type. */

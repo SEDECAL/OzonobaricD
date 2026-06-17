@@ -1,3 +1,4 @@
+
 #pragma once
 
 #include "therapyControl/serial/SerialProtocolTypes.h"
@@ -45,8 +46,6 @@ public:
 };
 
 std::unique_ptr<iFSMView> fsmViewFactory( iError &error);
-
-
 template <class T>
 static const std::string view( const T & var ) {
 

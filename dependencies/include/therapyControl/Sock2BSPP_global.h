@@ -1,3 +1,4 @@
+
 #ifndef SOCK2BSPP_GLOBAL_H
 #define SOCK2BSPP_GLOBAL_H
 

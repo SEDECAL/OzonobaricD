@@ -1,3 +1,4 @@
+
 #pragma once
 
 /* Default slider values for data selection*/

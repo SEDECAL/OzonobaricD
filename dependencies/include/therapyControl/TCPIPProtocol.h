@@ -1,3 +1,4 @@
+
 /*
  * SocketProtocol.h
  *
@@ -12,8 +13,6 @@
 /*#define SPROT_VERSION   "V0.R0.P0"     31/01/2018. First version with test and draft commands. */
 /*#define SPROT_VERSION   "V0.R0.P1"     27/06/2018. First version with test and draft commands. Is the same version, the other one was not correctly registered in svn*/
 #define SPROT_VERSION   "V0.R0.P2"  /* 10/07/2018. Pressure information added on get generation command.*/
-
-
 #define SPROT_MAX_COMMAND_LENGTH   80
 #define SPROT_MAX_RESPONSE_LENGTH  100
 #define SPROT_END_COMMAND_CHAR     0x0D
@@ -23,8 +22,6 @@
 
 /* Socket protocol commands */
 #include "therapyControl/TCPIPDictionary.h"
-
-
 
 #define SPROT_ERROR_WRONG_COMMAND_CODE   -1
 #define SPROT_ERROR_NO_START_CHAR        -2
@@ -46,8 +43,6 @@ typedef struct SPROT_command_item{
   char  CommandId[15];
   int8 (*DecodeFunction)(char *Data);
 } SPROT_COMMAND_ITEM;
-
-
 
 void SPROT_Init(int8 *CommandBuffer,  SPROT_COMMAND *SocketCommandStruct, int8 *ResponseBuffer, SPROT_RESPONSE *SocketResponseStruct);
 int8 SPROT_ReceiveCommand(int8 *Data, SPROT_COMMAND *Command);
@@ -96,5 +91,3 @@ int8 SPROT_SimulateEnterReleasedKey(const char *Data);
 int8 SPROT_AppMode             (const char *Data);
 
 //int8 SPROT_SerialBoot          (const char *Data);
-
-

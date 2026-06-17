@@ -1,3 +1,4 @@
+
 #ifndef MYTCPSERVER_H
 #define MYTCPSERVER_H
 
@@ -6,8 +7,6 @@
 #include <QTcpSocket>
 #include <QDebug>
 #include "inc/iAppSock.h"
-
-
 class MyTcpServer : public QObject, public iTCPIPPort
 {
     Q_OBJECT

@@ -1,3 +1,4 @@
+
 #pragma once
 /**
  * Table constants
@@ -423,8 +424,6 @@ typedef struct
 #define SECTION_2                            2
 /**@}*/
 #define WARNING_MASK    0x80
-
-
 #ifdef __cplusplus
 namespace SerialProtocolNameSpace {
 
@@ -435,19 +434,13 @@ typedef enum spinValue {
     ON  = 1,
     OFF = 0
 } spinValue;
-
-
 /**
  * \enum PROTOCOL_CONTROL_BOARD_STATUS_E
  * Protocol Slave board possible status.
  */
-
-
 using SPCommand  = PROTOCOL_COMMAND_T;
 using SPStatus   = SPStatus;
 using SPResponse = PROTOCOL_RESPONSE_T;
-
-
 };
 #endif
 

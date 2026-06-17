@@ -1,3 +1,4 @@
+
 #pragma once
 
 #ifdef __cplusplus
@@ -19,8 +20,6 @@ private:
 
 };
 #endif
-
-
 #ifdef __cplusplus
 extern "C" {
 #endif

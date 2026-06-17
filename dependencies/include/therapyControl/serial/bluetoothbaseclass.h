@@ -1,3 +1,4 @@
+
 #pragma once
 
 //// JB#January 2021 helper to representate 1970 seconds in a decent way

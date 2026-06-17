@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: LGPL-3.0-or-later
 // Copyright (C) 2024 Sedecal S.A.
 // This file is part of OzonobaricD.
 // See LICENSE file for details.
