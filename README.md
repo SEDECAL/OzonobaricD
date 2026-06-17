@@ -54,7 +54,7 @@ The source code of Sock2BSPP is not available under an open-source license.
 
 ## License
 
-The UI source code in this repository is licensed under the **GNU General Public License v3.0 or later**. See the [LICENSE](LICENSE) file for the full text.
+The UI source code in this repository is licensed under the **GNU Lesser General Public License v3.0 or later**. See the [LICENSE](LICENSE) file for the full text.
 
 Third-party components:
 
